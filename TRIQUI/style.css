@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 85vh;
+    background-color: #090c31;
+    display: grid;
+    place-items: center;
+}
+
+.tablero{
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    background-color: #15173c;
+    color: white;
+    width: 500px;
+    max-width: 100%;
+    border-radius: 1rem;
+    box-shadow: 
+    0 0 0px #fff, 
+    0 0 10px #fff, 
+    0 0 0px #fff, 
+    0 0 0px #f09, 
+    0 0 0px #f09, 
+    0 0 0px #f09, 
+    0 0 20px #F09, 
+    0 0 50px #F09;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px -16px 0px;
+    color:#c85c5cac ;
+    font-size: 70px;
+}
+h1 {
+    color: #fff;
+    text-shadow:
+    0 0 6px #fff, 
+    0 0 2px #fff, 
+    0 0 8px #fff, 
+    0 0 30px #f09, 
+    0 0 30px #f09, 
+    0 0 20px #f09, 
+    0 0 30px #f09, 
+    0 0 100px #f09
+}
+
+
+
+.box{
+    background-color: #f6f6f6;
+    color: white;
+    border: none;
+    padding: 3.5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: #626369;
+}
